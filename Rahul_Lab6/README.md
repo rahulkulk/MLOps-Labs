@@ -30,7 +30,5 @@ The final results table compares all feature selection methods using:
 - F1 score
 - Feature count
 - Training time
-
-Inference time
-
-Cross-validation accuracy
+- Inference time
+- Cross-validation accuracy

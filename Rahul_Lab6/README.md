@@ -21,8 +21,7 @@ What You Can Learn
 - Why proper scaling and cross-validation are critical for trustworthy feature selection
 - How to choose an optimal feature subset balancing performance vs. efficiency
 
-Output
-The final results table compares all feature selection methods using:
+Output: The final results table compares all feature selection methods using:
 - Accuracy
 - ROC
 - Precision

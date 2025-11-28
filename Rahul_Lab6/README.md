@@ -9,7 +9,7 @@ All model training now uses a Pipeline(StandardScaler → RandomForestClassifier
 2. Cross-Validation for Reliable Evaluation
 Each feature selection method now includes 5-fold cross-validation, making accuracy comparisons more stable and less dependent on a single train/test split.
 
-3. Training & Inference Time Metrics
+3. Training & Inference Time Metrics:
 The evaluation table now reports:
 - Training time
 - Inference time

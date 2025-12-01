@@ -6,6 +6,7 @@ How to Run
 1. Create & Activate Virtual Environment
 
 python3 -m venv venv
+
 source venv/bin/activate
 
 2. Install Dependencies
@@ -21,8 +22,11 @@ Recommended Python Version: Python 3.11 or 3.12
 If installing 3.12:
 
 brew install python@3.12
+
 /opt/homebrew/bin/python3.12 -m venv venv312
+
 source venv312/bin/activate
+
 pip install torch transformers datasets evaluate tqdm
 
 What This Pipeline Does
@@ -59,6 +63,3 @@ Key Changes Made
 - Implemented token grouping for fixed-length batches
 - Added average validation loss evaluation
 - Added model checkpoint save + reload
-
-
-Verifies model reload success

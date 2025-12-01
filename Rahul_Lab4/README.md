@@ -4,13 +4,16 @@ This project implements a mini LLM training pipeline using GPT-2 (tiny) on the W
 
 How to Run
 1. Create & Activate Virtual Environment
+
 python3 -m venv venv
 source venv/bin/activate
 
 2. Install Dependencies
+
 pip install torch transformers datasets evaluate tqdm
 
 3. Run Script
+
 python Rahul_LLMDataPipeline_Lab4.py
 
 Recommended Python Version: Python 3.11 or 3.12
